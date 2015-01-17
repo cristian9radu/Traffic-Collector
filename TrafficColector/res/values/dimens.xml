@@ -1,0 +1,12 @@
+<resources>
+    <dimen name="large_half">240px</dimen>
+
+    <dimen name="value">24px</dimen>
+    <dimen name="units">16px</dimen>
+    <dimen name="header">18px</dimen>
+
+    <dimen name="margin">10px</dimen>
+    <dimen name="padding">5px</dimen>
+    <dimen name="row_spacing">10px</dimen>
+
+</resources>

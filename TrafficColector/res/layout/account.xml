@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <!-- Put form controls here -->
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your Username"
+            android:textSize="10pt" >
+        </EditText>
+
+        <TextView
+            android:id="@+id/username_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Password:"
+            android:textSize="10pt" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:password="true"
+            android:text=""
+            android:textSize="10pt" >
+        </EditText>
+
+        <TextView
+            android:id="@+id/password_check_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Password Check:"
+            android:textSize="10pt" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/password_check"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:password="true"
+            android:text=""
+            android:textSize="10pt" >
+        </EditText>
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="440px"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/account_save"
+                android:layout_width="220px"
+                android:layout_height="wrap_content"
+                android:text="Save" >
+            </Button>
+
+            <Button
+                android:id="@+id/account_cancel"
+                android:layout_width="220px"
+                android:layout_height="wrap_content"
+                android:text="Cancel" >
+            </Button>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

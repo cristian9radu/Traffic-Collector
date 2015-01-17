@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="440px"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/bstart"
+            style="@style/startButton"
+            android:layout_width="220px"
+            android:layout_height="wrap_content"
+            android:text="Start" >
+        </Button>
+
+        <Button
+            android:id="@+id/bpause"
+            style="@style/pauseButton"
+            android:layout_width="220px"
+            android:layout_height="wrap_content"
+            android:text="Stop" >
+        </Button>
+    </LinearLayout>
+
+    <CheckedTextView
+        android:id="@+id/real_time"
+        android:layout_width="240px"
+        android:layout_height="?android:attr/listPreferredItemHeight"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingBottom="10dip"
+        android:paddingLeft="20dip"
+        android:paddingRight="20dip"
+        android:paddingTop="10dip"
+        android:text="Real-time"
+        android:textSize="15dip" >
+    </CheckedTextView>
+
+    <ScrollView
+        android:id="@+id/ScrollView"
+        android:layout_width="300px"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/bupload"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Upload Data" >
+            </Button>
+
+            <Button
+                android:id="@+id/b_reset"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonResetClicked"
+                android:text="Clear Ticket" >
+            </Button>
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/ScrollView"
+        android:layout_marginTop="19dp"
+        android:text="TextView"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="18dip" >
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="440px"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/bshare"
+            android:layout_width="220px"
+            android:layout_height="wrap_content"
+            android:text="Share Position" >
+        </Button>
+
+        <Button
+            android:id="@+id/bstopshare"
+            android:layout_width="220px"
+            android:layout_height="wrap_content"
+            android:text="Stop Sharing" >
+        </Button>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="300px"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/bregenerate"
+            android:layout_width="300px"
+            android:layout_height="wrap_content"
+            android:text="Regenerate ID" >
+        </Button>
+    </ScrollView>
+
+    <WebView
+        android:id="@+id/where"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+</LinearLayout>

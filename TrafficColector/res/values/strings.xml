@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, PathCollector!</string>
+    <string name="app_name">Traffic Collector</string>
+    
+    <string name="kilometers">kilometers</string>
+    <string name="miles">miles</string>
+    <string name="kilometers_per_hour">kilometers / hour</string>
+    <string name="miles_per_hour">miles / hour</string>
+    <string name="meters">meters</string>
+    <string name="centimeters">centimeters</string>
+    <string name="inches">inches</string>
+    <string name="kilograms">kilograms</string>
+    <string name="pounds">pounds</string>
+
+   	<string name="extra_high">extra high</string>
+    <string name="very_high">very high</string>
+    <string name="high">high</string>
+    <string name="higher">higher</string>
+    <string name="medium">medium</string>
+    <string name="lower">lower</string>
+    <string name="low">low</string>
+    <string name="very_low">very low</string>
+    <string name="extra_low">extra low</string>
+    
+    <string name="length">Length</string>
+    <string name="speed">Speed</string>
+    <string name="max_speed">Max speed</string>
+    <string name="avg_speed">Average Speed</string>
+</resources>

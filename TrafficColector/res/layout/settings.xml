@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:key="first_preferencescreen">
+		<PreferenceCategory android:title="Account Information">
+			<EditTextPreference  
+					android:id="@+id/settings_name"
+					android:dialogTitle="Name"
+					android:dialogMessage="Name"
+					android:key="settings_name"
+					android:title="Name"
+					android:defaultValue=""
+					android:enabled="true"
+					/>
+			<EditTextPreference  
+					android:id="@+id/settings_username"
+					android:dialogTitle="Username"
+					android:dialogMessage="Username"
+					android:key="settings_username"
+					android:title="Username"
+					android:defaultValue=""
+					android:enabled="true"
+					/>
+		</PreferenceCategory>
+		<PreferenceCategory android:title="Password">
+			<CheckBoxPreference android:key="settings_change"
+					android:title="Change Password?"
+					android:defaultValue="false"
+					android:summary="Do you want to change Password?"
+					android:id="@+id/settings_change"/>
+		</PreferenceCategory>>
+		<PreferenceCategory android:title="Update Informations">
+			<CheckBoxPreference android:key="settings_update_server"
+					android:title="Update"
+					android:defaultValue="false"
+					android:summary="Send account information to server?"
+					android:id="@+id/settings_update_server"/>
+			
+			<!-- <EditTextPreference  
+					android:id="@+id/settings_password"
+					android:dialogTitle="Password"
+					android:dialogMessage="Password"
+					android:key="settings_password"
+					android:title="Password"
+					android:defaultValue=""
+					android:enabled="true"
+					/>
+			<EditTextPreference  
+					android:id="@+id/settings_password_re"
+					android:dialogTitle="Re-type Password"
+					android:dialogMessage="Re-type Password"
+					android:key="settings_password_re"
+					android:title="Re-type Password"
+					android:defaultValue=""
+					android:enabled="true"
+					/> -->
+		</PreferenceCategory>
+		<!--<EditTextPreference  
+				android:id="@+id/settings_facebook"
+				android:dialogTitle="Facebook"
+				android:dialogMessage="Facebook"
+				android:key="settings_facebook"
+				android:title="Facebook"
+				android:defaultValue=""
+				android:enabled="true"
+				/>
+		<EditTextPreference  
+				android:id="@+id/settings_twitter"
+				android:dialogTitle="Twitter"
+				android:dialogMessage="Twitter"
+				android:key="settings_twitter"
+				android:title="Twitter"
+				android:defaultValue=""
+				android:enabled="true"
+				/>-->
+</PreferenceScreen> 

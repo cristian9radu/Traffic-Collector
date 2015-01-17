@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainlayout"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <com.google.android.maps.MapView
+        android:id="@+id/mapview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clickable="true"
+        android:enabled="true"
+        android:apiKey="0BkKZBJPbqxjKKlsmAW1_4YwY-onZ7YXfsicw_w"
+    />
+    <TextView android:id="@+id/map_speed"
+    	android:layout_alignParentRight="true"
+    	android:layout_alignParentTop="true"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textSize="30px"
+		android:text="0.0 km/h" 
+		android:paddingLeft="@dimen/padding"
+		android:paddingRight="@dimen/padding"
+		android:paddingBottom="@dimen/padding" 
+		android:background="@color/display_background"/>
+	<TextView android:id="@+id/map_length"
+    	android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textSize="25px"
+		android:text="0.0 km" 
+		android:paddingLeft="@dimen/padding"
+		android:paddingRight="@dimen/padding"
+		android:paddingBottom="@dimen/padding" 
+		android:background="@color/display_background"/>
+</RelativeLayout>
